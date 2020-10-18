@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="421dp"
+        android:layout_height="183dp"
+        android:src="@drawable/hwd"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="-38dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:background="@drawable/fl"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hwd2"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:fontFamily="casual"
+        android:text="Happy Wedding to A Wonderful Couple! May Love Always All Around You Forever."
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+</LinearLayout>
